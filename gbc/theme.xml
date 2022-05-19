@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>GameBoy Color</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>GameBoy</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Color</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1998  ·  8-bit Handheld Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>닌텐도에서 제조한 휴대용 게임기로 1998년 10월 21일 일본에서 출시되었으며 같은 해 11월 세계 시장에 출시되었다. 게임보이의 후속작이다.</text>
+		</text>
+	</view>
+</theme>

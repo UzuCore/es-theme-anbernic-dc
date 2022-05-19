@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Atari 2600</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Atari 2600</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>1977  ·  8-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>아타리 2600(Atari 2600)은 1977년부터 1992년까지 아타리에서 제작한 2세대 비디오 게임 콘솔이다. 아타리 2600은 1977년 10월에 199달러에 출시되었다.</text>
+		</text>
+	</view>
+</theme>

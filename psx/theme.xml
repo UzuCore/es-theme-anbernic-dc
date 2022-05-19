@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Sony Playstation</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Sony</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Playstation</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1994  ·  32-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>플레이스테이션(PlayStation)은 소니 컴퓨터 엔터테인먼트가 1994년부터 제작한 5세대 비디오 게임 콘솔이다. 플레이스테이션 제품군의 첫 번째 기계였다.</text>
+		</text>
+	</view>
+</theme>

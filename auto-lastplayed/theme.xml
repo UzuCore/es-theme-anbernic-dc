@@ -1,0 +1,24 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Last Played</text>
+		</text>
+	</view>    
+	<view name="system">
+	<text name="sys_line3" extra="true">
+		<fontPath>./../_art/SCDream8.otf</fontPath>
+			<text>최근실행</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>   
+		<text name="shortdescription" extra="true">
+			<text>All Consoles / Handhelds</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>사용 가능한 시스템에서 플레이된 최신 게임을 내림차순으로 구성된 단일 목록에 표시됩니다. 시스템을 통해 다양한 기준으로 좋아하는 게임을 검색할 수 있습니다.</text>
+		</text>
+	</view>
+</theme>

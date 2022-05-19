@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Nintendo DS</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Nintendo</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>DS</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>2004  ·  32-bit Handheld Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>닌텐도가 2004년에 출시한 휴대용 비디오 게임기이다. 오픈 및 클로즈 디자인으로 시각적인 구별되며, 아래쪽 화면은 터치 감응형이다.</text>
+		</text>
+	</view>
+</theme>

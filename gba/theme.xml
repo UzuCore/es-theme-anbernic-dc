@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>GameBoy Advance</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>GameBoy</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Advance</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>2001  ·  32-bit Handheld Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>게임보이 컬러(Game Boy Color)의 후속작으로 닌텐도가 개발, 제조, 판매하는 32비트 휴대용 게임 콘솔이다. 일본에서는 2001년 3월 21일, 북미에서는 2001년 6월 11일 발매되었다.</text>
+		</text>
+	</view>
+</theme>

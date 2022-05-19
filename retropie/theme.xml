@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Options</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Options</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text> 
+		<text name="shortdescription" extra="true">
+			<text>System Configuration</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>시스템 하드웨어, 블루투스 및 Wi-Fi 연결을 구성합니다. 업데이트, 애드온 및 비주얼 테마 설치가 가능합니다.</text>
+		</text>
+	</view>
+</theme>

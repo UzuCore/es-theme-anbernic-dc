@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Sega Master System</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Sega</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Master System</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1985  ·  8-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>마스터 시스템(Master System)은 세가에서 개발한 가정용 게임기이다. 1985년 일본에서 세가 마크 III라는 이름으로 처음 출시되었다. 이후 새롭게 디자인된 후 북미에 발매했다.</text>
+		</text>
+	</view>
+</theme>

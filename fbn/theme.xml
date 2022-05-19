@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Final Burn Neo</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Final Burn Neo</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+	<text name="sys_line2" extra="true">
+			<text>FBNEO</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>Coin Operated Cabinet</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>FB 네오는 오픈 소스 프로젝트이며 FBA 팀으로 알려진 사람들에 의해 프로그래밍된다. FB 알파는 데이브의 오리지널 파이널 번을 기반으로 한다.</text>
+		</text>
+	</view>
+</theme>

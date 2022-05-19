@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Atari ST</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Atari ST</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>  
+		<text name="shortdescription" extra="true">
+			<text>1985  ·  16-bit Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>아타리 사의 가정용 컴퓨터 계열이며 아타리 8비트 제품군의 후속 제품이다. 최초의 ST 모델인 520ST는 1985년 4월부터 6월까지 제한적으로 출시되었으며 7월에 널리 판매되었다.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Power</text>
+		</text>
+			<text name="systemInfo">
+			<text>Configuration</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Power</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text> 
+		<text name="shortdescription" extra="true">
+			<text>Shut Down Menu</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>시스템을 셧다운 또는 재시작하기 위한 안전 옵션입니다.</text>
+		</text>
+		<text name="systemInfo">
+			<text>Configuration</text>
+		</text>
+	</view>
+</theme>

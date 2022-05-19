@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultTransition="slide">
+<formatVersion>7</formatVersion>
+	<include>./config.xml</include>
+
+	<variables>
+		<fontWs ifSubset="폰트 설정:font9">JeonHwaseon.otf</fontWs>
+		<fontWm ifSubset="폰트 설정:font9">JeonHwaseon.otf</fontWm>
+		<fontWb ifSubset="폰트 설정:font9">JeonHwaseon.otf</fontWb>
+		<fontWs ifSubset="폰트 설정:font8">SimKyungha.otf</fontWs>
+		<fontWm ifSubset="폰트 설정:font8">SimKyungha.otf</fontWm>
+		<fontWb ifSubset="폰트 설정:font8">SimKyungha.otf</fontWb>
+		<fontWs ifSubset="폰트 설정:font7">LeeSeoyun.otf</fontWs>
+		<fontWm ifSubset="폰트 설정:font7">LeeSeoyun.otf</fontWm>
+		<fontWb ifSubset="폰트 설정:font7">LeeSeoyun.otf</fontWb>
+		<fontWs ifSubset="폰트 설정:font6">BinggraeSamanco.otf</fontWs>
+		<fontWm ifSubset="폰트 설정:font6">BinggraeSamanco-Bold.otf</fontWm>
+		<fontWb ifSubset="폰트 설정:font6">BinggraeSamanco-Bold.otf</fontWb>
+		<fontWs ifSubset="폰트 설정:font5">EF_Diary.ttf</fontWs>
+		<fontWm ifSubset="폰트 설정:font5">EF_Diary.ttf</fontWm>
+		<fontWb ifSubset="폰트 설정:font5">EF_Diary.ttf</fontWb>
+		<fontWs ifSubset="폰트 설정:font4">EliceDigitalCodingOTF_Regular.otf</fontWs>
+		<fontWm ifSubset="폰트 설정:font4">EliceDigitalCodingOTF_Bold.otf</fontWm>
+		<fontWb ifSubset="폰트 설정:font4">EliceDigitalCodingOTF_Bold.otf</fontWb>
+		<fontWs ifSubset="폰트 설정:font3">opensans_hebrew_condensed_light.ttf</fontWs>
+		<fontWm ifSubset="폰트 설정:font3">opensans_hebrew_condensed_regular.ttf</fontWm>
+		<fontWb ifSubset="폰트 설정:font3">opensans_hebrew_condensed_regular.ttf</fontWb>
+		<fontWs ifSubset="폰트 설정:font2">NotoSansKR-Regular.otf</fontWs>
+		<fontWm ifSubset="폰트 설정:font2">NotoSansKR-Medium.otf</fontWm>
+		<fontWb ifSubset="폰트 설정:font2">NotoSansKR-Bold.otf</fontWb>
+		<fontWs ifSubset="폰트 설정:font1">SCDream3.otf</fontWs>
+		<fontWm ifSubset="폰트 설정:font1">SCDream5.otf</fontWm>
+		<fontWb ifSubset="폰트 설정:font1">SCDream8.otf</fontWb>
+	</variables>
+
+	<include ifSubset="폰트 증폭:fSize1">./font.xml</include>
+	<include ifSubset="폰트 증폭:fSize10">./font10.xml</include>
+	<include ifSubset="폰트 증폭:fSize20">./font20.xml</include>
+	<include ifSubset="폰트 증폭:fSize30">./font30.xml</include>
+
+	<view name="screen">
+		<controllerActivity name="controllerActivity">
+			<origin>1 1</origin>
+			<pos>0 0</pos>
+			<textColor>000000</textColor>
+			<iconColor>000000</iconColor>
+		</controllerActivity>
+		<text name="clock">
+			<origin>1 1</origin>
+			<pos>0 0</pos>
+			<textColor>000000</textColor>
+			<iconColor>000000</iconColor>
+		</text>
+		<batteryIndicator name="batteryIndicator">
+			<size>0.065 0.060</size>
+			<pos>0.925 0.0075</pos>
+			<horizontalAlignment>right</horizontalAlignment>
+			<itemSpacing>0.010</itemSpacing>
+		</batteryIndicator>
+	</view>
+
+	<view name="system">
+		<!--<sound name="bgsound">-->
+			<!-- try ogg -->
+			<!--<path>./_art/assets/sounds/${system.theme}.ogg</path>-->
+			<!-- try mp3 -->
+			<!--<path>./_art/assets/sounds/${system.theme}.mp3</path>-->
+		<!--</sound>-->
+		  
+		<image name="poster" extra="true">
+			<path>./_art/posters/${system.theme}.jpg</path>
+			<tile>false</tile>
+			<origin>1 0</origin>
+			<pos>1 0</pos>
+			<size>0 1</size>
+		</image>
+
+		<image ifSubset="앤버닉 로고:lg1" name="indicator_bg" extra="true">
+			<tile>false</tile>
+			<path>./_art/indicators/logo.svg</path>
+			<pos>0.35 0.05</pos>
+			<origin>0 0</origin>
+			<maxSize>0.25 0.25</maxSize>
+		</image>
+
+		<carousel name="systemcarousel">
+			<type>vertical</type>
+			<type ifSubset="화면 스크롤:가로">horizontal</type>
+			<color>00000000</color>
+			<origin>1 1</origin>
+			<pos>1 1</pos>
+			<size>0.01 0.01</size>
+			<logoScale>1</logoScale>
+			<logoSize>0.01 0.01</logoSize>
+			<maxLogoCount>0</maxLogoCount>
+			<scrollSound>./_art/scroll.wav</scrollSound>
+			<systemInfoDelay>120</systemInfoDelay>
+		</carousel>
+		
+		<text name="sys_line1" extra="true">
+			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+			<color>FFFFFF</color>
+			<fontSize>${font_sys_line1}</fontSize>
+		</text>
+		
+		<text name="sys_line2" extra="true">
+			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+			<color>FFFFFF</color>
+			<fontSize>${font_sys_line2}</fontSize>
+		</text>
+
+		<text name="sys_line3" extra="true">
+			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+			<color>FFFFFF</color>
+			<fontSize>${font_sys_line3}</fontSize>
+		</text>
+
+		<text name="shortdescription" extra="true">
+			<fontPath>./_art/${fontWm}</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>${font_shortdescription}</fontSize>
+			<color>9b9a9a</color>
+			<origin>0 0</origin>
+			<pos>0.02 0.1055</pos>
+			<size>1 0.033</size>
+		</text>
+
+		<text name="systemInfo">
+			<fontPath>./_art/${fontWm}</fontPath>
+			<alignment>left</alignment>
+			<backgroundColor>00000000</backgroundColor>
+			<forceUppercase>1</forceUppercase>
+			<color>ee0000</color>
+			<origin>0 0</origin>
+			<pos>0.02 0.41</pos>
+			<pos ifSubset="해상도 설정:480p|1080p">0.02 0.36</pos>
+			<size>1 0.039</size>
+			<fontSize>${font_systemInfo}</fontSize>
+		</text>
+
+		<text name="longdescription" extra="true">
+			<fontPath>./_art/${fontWs}</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>${font_longdescription}</fontSize>
+			<color>9F9F9F</color>
+			<lineSpacing>1.18</lineSpacing>
+			<origin>0 0</origin>
+			<pos>0.02 0.465</pos>
+			<pos ifSubset="해상도 설정:320p">0.02 0.54</pos>
+			<pos ifSubset="해상도 설정:480p">0.02 0.43</pos>
+			<pos ifSubset="해상도 설정:1080p">0.02 0.4</pos>
+			<size>0.48 0.18</size>
+			<size ifSubset="해상도 설정:480p">0.44 0.18</size>
+			<size ifSubset="해상도 설정:1080p">0.38 0.18</size>
+		</text>
+		<!--<image name="desc_helper" extra="true">
+			<path>./_art/assets/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0.02 0.42</pos>
+			<size>0.44 0.4</size>
+			<color>DC143Ccc</color>
+			<zIndex>2</zIndex>
+		</image>-->
+
+		<image name="buttonA" extra="true">
+			<path>./_art/assets/button.svg</path>
+			<tile>false</tile>
+			<origin>0 0</origin>
+			<pos>0.02 0.66</pos>
+			<pos ifSubset="해상도 설정:320p">0.02 0.84</pos>
+			<pos ifSubset="해상도 설정:1080p">0.02 0.6</pos>
+			<size>0 0.044</size>
+		</image>
+
+		<helpsystem name="help">
+			<fontPath>./_art/${fontWm}</fontPath>
+			<fontSize>${font_help}</fontSize>
+			<textColor>666666</textColor>
+			<iconColor>666666</iconColor>
+		</helpsystem> 
+
+		<image name="controller" extra="true">
+			<path>./_art/controllers/${system.theme}.png</path>
+			<tile>false</tile>
+			<origin>0 0</origin>
+			<pos>0.02 0.73</pos>
+			<pos ifSubset="해상도 설정:1080p">0.02 0.66</pos>
+			<maxSize>0.19 0.19</maxSize>
+			<maxSize ifSubset="해상도 설정:1080p">0.26 0.26</maxSize>
+		</image>
+		<image name="controller" extra="true" ifSubset="해상도 설정:320p">
+			<origin>1 1</origin>
+			<pos>0 0</pos>
+			<textColor>000000</textColor>
+			<iconColor>000000</iconColor>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+		<!--<image name="desc_helper" extra="true">
+			<path>./_art/assets/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0 0.0833</pos>
+			<size>1 0.8513</size>
+			<color>DC143Ccc</color>
+			<zIndex>2</zIndex>
+		</image>-->
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<path>./_art/assets/bg.jpg</path>
+			<path ifSubset="배경 설정:bg6">./_art/assets/bg6.jpg</path>
+			<path ifSubset="배경 설정:bg5">./_art/assets/bg5.jpg</path>
+			<path ifSubset="배경 설정:bg4">./_art/assets/bg4.jpg</path>
+			<path ifSubset="배경 설정:bg3">./_art/assets/bg3.jpg</path>
+			<path ifSubset="배경 설정:bg2">./_art/assets/bg2.jpg</path>
+			<path ifSubset="배경 설정:bg0">./_art/assets/bg0.jpg</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<zIndex>0</zIndex>
+		</image>
+		<textlist name="gamelist">
+			<selectorColor>ff000088</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<selectorHeight>0.096</selectorHeight>
+			<selectorHeight ifSubset="해상도 설정:480p|544p">0.08</selectorHeight>
+			<selectorHeight ifSubset="해상도 설정:1080p">0.07</selectorHeight>
+			<primaryColor>a0a0a0</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_art/${fontWm}</fontPath>
+			<alignment>left</alignment>
+			<pos>0 0.0833</pos>
+			<size>1 0.8513</size>
+			<fontSize>${font_gamelist}</fontSize>
+			<lineSpacing>1.48</lineSpacing>
+			<lineSpacing ifSubset="해상도 설정:544p|1080p">1.4</lineSpacing>
+			<horizontalMargin>0.02864</horizontalMargin>
+			<zIndex>4</zIndex>
+		</textlist>
+		
+		<text name="nameLabel" extra="true">
+			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+			<color>ffffff</color>
+			<fontSize>${font_nameLabel}</fontSize>
+			<origin>0 0</origin>
+			<pos>0.029 0</pos>
+			<size>1 0.075</size>
+		</text>
+
+		<!--<text name="md_description">
+			<fontPath>./_art/${fontWm}</fontPath>
+			<color>818181</color>
+			<fontSize>0.025</fontSize>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1</lineSpacing>
+			<origin>0 0</origin>
+			<pos>0.596 0.633</pos>
+			<size>0.385 0.245</size>
+		</text>-->
+		
+		<!-- Define metadata -->
+		<text name="md_lbl_rating, md_lbl_genre, md_lbl_players">
+			<color>F8F8F8</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_art/${fontWm}</fontPath>
+			<fontSize>${font_md_lbl}</fontSize>
+		</text>
+
+		<text name="md_genre, md_players">
+			<color>888888</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_art/${fontWb}</fontPath>
+			<fontSize>${font_md_gp}</fontSize>
+		</text>
+
+		<!-- Place metadata --> 
+		<text name="md_lbl_rating">
+			<pos>0.596 0.57</pos>
+			<size>1 0.15</size>
+		</text>
+
+		<rating name="md_rating">
+			<linearSmooth>true</linearSmooth>
+			<pos>0.693 0.62</pos>
+			<size>0 0.05</size>
+			<filledPath>./_art/assets/star_filled.svg</filledPath>
+			<unfilledPath>./_art/assets/star_hollow.svg</unfilledPath>
+			<color>ffc500</color>
+		</rating>
+
+		<text name="md_lbl_players">
+			<pos>0.596 0.68</pos>
+			<size>1 0.07</size>
+		</text>
+			
+		<text name="md_players">
+			<pos>0.74 0.68</pos>
+			<pos ifSubset="해상도 설정:480p">0.765 0.68</pos>
+			<size>0.2 0.07</size>
+		</text>
+			
+		<text name="md_lbl_genre">
+			<pos>0.596 0.75</pos>
+			<size>1 0.07</size>
+		</text>
+
+		<text name="md_genre">
+			<pos>0.69 0.75</pos>
+			<size>0.3 0.07</size>
+		</text> 
+
+		<helpsystem name="help">
+			<fontPath>./_art/${fontWm}</fontPath>
+			<fontSize>${font_help}</fontSize>
+			<textColor>666666</textColor>
+			<iconColor>666666</iconColor>
+		</helpsystem>
+
+		<!-- Extra Text Labels. Edit text values if needed.-->
+		<!-- <text name="players_lbl_2, btn_a, btn_b, btn_x" extra="true">
+			<fontPath>./_art/${fontWm}</fontPath>
+			<color>888888</color>
+			<fontSize>0.0186</fontSize>
+		</text>	   
+
+		<text name="btn_a" extra="true">
+			<text>실행</text>
+			<pos>0.042 0.933</pos>
+			<size>0.06 0.07</size>
+		</text>   
+			
+		<text name="btn_b" extra="true">
+			<text>뒤로</text>
+			<pos>0.155 0.933</pos>
+			<size>0.06 0.07</size>
+		</text>   
+			
+		<text name="btn_x" extra="true">
+			<text>즐겨찾기</text>
+			<pos>0.259 0.933</pos>
+			<size>0.06 0.07</size>
+		</text>   
+
+		<text name="players_lbl_2" extra="true">
+			<text>players</text>
+			<pos>0.689 0.932</pos>
+			<size>0.06 0.07</size>
+		</text>	   
+
+		<text name="txt_descript" extra="true">
+			<text>게임소개</text>
+			<fontPath>./_art/${fontWm}</fontPath>
+			<alignment>left</alignment>
+			<fontSize>0.0186</fontSize>
+			<color>ffffff</color>
+			<origin>0 0</origin>
+			<pos>0.596 0.576</pos>
+			<size>0.06 0.07</size>
+		</text>--> 
+			
+		<!-- Hidden Elements -->
+		<!--<text name="shortdescription, longdescription" extra="true">
+			<origin>1 1</origin>
+			<color>00000000</color>
+			<pos>0 0</pos>
+		</text>
+			
+		<text name="md_lbl_releasedate, md_lbl_developer, md_developer, md_lbl_playcount, md_playcount, md_lbl_lastplayed, md_lbl_publisher, md_publsher">
+			<origin>1 1</origin>
+			<color>00000000</color>
+			<pos>0 0</pos>
+		</text>
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<origin>1 1</origin>
+			<color>00000000</color>
+			<pos>0 0</pos>
+		</datetime>-->
+	</view>
+
+	<view name="detailed, video">
+				
+		<!--<image name="background" extra="true">
+			<tile>false</tile>
+			<path>./_art/assets/bg.png</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<zIndex>1</zIndex>
+		</image>-->
+		
+		<!--<image name="crtBezel" extra="true">
+			<path>./_art/assets/bezel.png</path>
+			<origin>0 0</origin>
+			<pos>0.594 0.1</pos>
+			<size>0.39 0.5</size>
+			<zIndex>5</zIndex>
+		</image>-->
+
+		<textlist name="gamelist">
+			<size>0.57 0.8513</size>
+		</textlist>
+
+		<image name="md_image">
+			<origin>0 0</origin>
+			<pos>0.594 0.1</pos>
+			<size>0.39 0.5</size>
+			<zIndex>1</zIndex>
+		</image>
+
+		<!--<image name="md_marquee">
+			<origin>0 0</origin>
+			<pos>0.6 0.1</pos>
+			<maxSize>0.15 0.15</maxSize>
+			<zIndex>3</zIndex>
+		</image>-->
+	</view>
+
+	<feature supported="video">
+		<view name="video">
+			<video name="md_video">
+				<origin>0 0</origin>
+				<pos>0.594 0.1</pos>
+				<size>0.39 0.5</size>
+				<delay>1</delay>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>true</showSnapshotDelay>
+				<zIndex>2</zIndex>
+			</video>
+		</view>
+	</feature>
+
+	<view name="menu">
+		<size>0.9 0.9</size>
+		<menuText name="menutitle">
+			<fontPath>./_art/${fontWm}</fontPath>
+			<fontSize>${font_menutitle}</fontSize>
+			<color>ffffff</color>
+		</menuText>
+		<menuText name="menutext, menufooter, menugroup">
+			<fontPath>./_art/${fontWm}</fontPath>
+			<color>ffffff</color>
+		</menuText>
+		<menuText name="menufooter">
+			<fontSize>${font_menufooter}</fontSize>
+		</menuText>
+		<menuText name="menutext">
+			<separatorColor>00000000</separatorColor>
+			<selectorColor>880000</selectorColor>
+			<fontSize>${font_menutext}</fontSize>
+			<horizontalMargin>0.1</horizontalMargin>
+		</menuText>
+		<menuGroup name="menugroup">
+			<color>aa0000</color>
+			<fontSize>${font_menugroup}</fontSize>
+		</menuGroup>
+		<menuBackground name="menubg">
+			<color>000000aa</color>
+			<cornerSize>25 25</cornerSize>
+		</menuBackground>
+		<menuTextEdit name="menutextedit">
+			<inactive>./_art/assets/textinput_inactive.png</inactive>
+			<active>./_art/assets/textinput_active.png</active>
+		</menuTextEdit>
+		<menuIcons name="menuicons">
+		  <iconKodi>./_art/icons/Kodi.png</iconKodi>
+		  <iconSystem>./_art/icons/System.png</iconSystem>
+		  <iconUpdates>./_art/icons/Updates.png</iconUpdates>
+		  <iconGames>./_art/icons/Games.png</iconGames>
+		  <iconControllers>./_art/icons/Controllers.png</iconControllers>
+		  <iconUI>./_art/icons/UI.png</iconUI>
+		  <iconSound>./_art/icons/Sound.png</iconSound>
+		  <iconNetwork>./_art/icons/Network.png</iconNetwork>
+		  <iconScraper>./_art/icons/Scraper.png</iconScraper>
+		  <iconAdvanced>./_art/icons/Advanced.png</iconAdvanced>
+		  <iconQuit>./_art/icons/Quit.png</iconQuit>
+		  <iconRestart>./_art/icons/Restart.png</iconRestart>
+		  <iconShutdown>./_art/icons/Shutdown.png</iconShutdown>
+		  <iconFastShutdown>./_art/icons/Fastshutdown.png</iconFastShutdown>
+		  <iconRetroachievements>./_art/icons/Contest.png</iconRetroachievements>
+		  <iconEmuelec>./_art/icons/Emuelec.png</iconEmuelec>
+		  <iconStreaming>./_art/icons/Streaming.png</iconStreaming>
+		  <iconManual>./_art/icons/Manual.png</iconManual>
+		</menuIcons>
+	</view>
+</theme>

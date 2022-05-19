@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Scumm VM</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Scumm VM</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text> 
+		<text name="shortdescription" extra="true">
+			<text>Cross Platform Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>Maniac Mansion 가상 시스템용 스크립트 생성 유틸리티(ScummVM)는 게임 엔진 레크리에이션 세트이다. 원래 SCUMM 시스템을 사용하는 루카스아츠 어드벤처 게임을 하도록 설계되었다.</text>
+		</text>
+	</view>
+</theme>

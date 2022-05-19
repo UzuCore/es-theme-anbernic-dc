@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Super Nintendo</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Super</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Nintendo</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1990  ·  16-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>닌텐도가 1990년에 개발한 가정용 게임기로, 1991년 북미, 1992년 유럽과 오스트랄라시아(오세아니아), 1993년 남미에서 출시되었다.</text>
+		</text>
+	</view>
+</theme>

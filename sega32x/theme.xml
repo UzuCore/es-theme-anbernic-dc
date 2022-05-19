@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Sega 32x</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Sega</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>32X</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1994  ·  32-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>32X는 세가 제네시스 비디오 게임 콘솔의 추가 기능이다. 프로젝트 마스(Project Mars)라는 코드명을 가진 32X는 제네시스의 성능을 확장하도록 설계되었다.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Sony Playstation 2</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Sony</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Playstation 2</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>2000  ·  128-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>소니 인터랙티브 엔터테인먼트가 제작한 콘솔이다. 일본에서는 2000년 3월 4일 개봉되었다. 첫 해를 고전했지만 플레이스테이션 2는 역사상 가장 많이 팔린 콘솔이 되었다.</text>
+		</text>
+	</view>
+</theme>

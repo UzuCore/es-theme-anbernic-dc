@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>3DS</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Nintendo</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>3DS</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>2011  ·  32-bit Handheld Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>닌텐도 3DS(Nintendo 3DS)는 닌텐도에서 2011년에 출시한 휴대용 콘솔이다. 특별한 안경 없이도 3차원 영상을 만들어 낼 수 있는 능력을 가지고 있다.</text>
+		</text>
+	</view>
+</theme>

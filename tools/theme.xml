@@ -1,0 +1,24 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Tools</text>
+		</text>
+	</view>    
+	<view name="system">
+	<text name="sys_line3" extra="true">
+		<fontPath>./../_art/SCDream8.otf</fontPath>
+			<text>프로그램</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>  
+		<text name="shortdescription" extra="true">
+			<text>All Consoles / Handhelds</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>사용자 편의와 시스템 관리를 위해서 제공되는 툴이 리스트되어 있습니다.</text>
+		</text>
+	</view>
+</theme>

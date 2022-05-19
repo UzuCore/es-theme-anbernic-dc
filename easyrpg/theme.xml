@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>EasyRPG</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>EasyRPG</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text> 
+		<text name="shortdescription" extra="true">
+			<text>1992  ·  Software</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>RPG 쭈끄르는 일본의 ASCII, 엔터브레인이 개발하고 Agetec, Degica이 발매하는 RPG 제작 소프트웨어이다. 그리고 EasyRPG는 이로 개발된 RPG게임을 구동하는 프로그램이다.</text>
+		</text>
+	</view>
+</theme>

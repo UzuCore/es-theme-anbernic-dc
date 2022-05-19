@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Neo Geo</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Neo Geo</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text> 
+		<text name="shortdescription" extra="true">
+			<text>1990  ·  24-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>네오지오(Neo Geo)는 SNK가 개발한 비디오 게임 하드웨어 제품군이다. 1990년부터 2004년까지 시장에서 이 브랜드는 아케이드 시스템인 MVS와 홈 콘솔인 네오지오 AES의 출시로 시작되었다.</text>
+		</text>
+	</view>
+</theme>

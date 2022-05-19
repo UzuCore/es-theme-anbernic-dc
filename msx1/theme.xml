@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>MSX</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>MSX</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text> 
+		<text name="shortdescription" extra="true">
+			<text>1983  ·  8-bit Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>MSX는 1983년 6월 16일 마이크로소프트가 발표한 표준 가정용 컴퓨터 아키텍처로, 당시 마이크로소프트 재팬의 부사장이자 ASCII 코퍼레이션의 이사였던 니시 가즈히코가 마케팅하였다.</text>
+		</text>
+	</view>
+</theme>

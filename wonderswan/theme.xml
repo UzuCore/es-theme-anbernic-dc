@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Wonderswan</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Wonderswan</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text> 
+		<text name="shortdescription" extra="true">
+			<text>1999  ·  16-bit Handheld Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>반다이가 일본에서 출시한 휴대용 게임기이다. 요코이 군페이의 회사인 고토 연구소와 반다이에 의해 개발되었으며, 1997년 요코이가 사망하기 전까지 개발된 마지막 하드웨어였다.</text>
+		</text>
+	</view>
+</theme>

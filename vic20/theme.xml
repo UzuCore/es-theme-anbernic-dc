@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>COMMODORE VIC-20</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>VIC-20</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>1980  ·  8-bit Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>VIC-20(독일에서는 VC-20, 일본에서는 VIC-1001)은 코모도어 비즈니스 머신에서 판매한 8비트 가정용 컴퓨터이다. VIC-20은 코모도어의 첫 개인용 컴퓨터인 PET 이후 대략 3년 후인 1980년에 발표되었다.</text>
+		</text>
+	</view>
+</theme>

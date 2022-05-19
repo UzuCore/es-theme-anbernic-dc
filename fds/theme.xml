@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Famicom Disk System</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Famicom</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Disk System</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1986  ·  8-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>FDS 또는 FCD로 약칭되는 Family Computer Disk 시스템은 1986년 2월 21일 일본에서 출시된 닌텐도 패밀리 컴퓨터 홈 게임 콘솔의 주변기기이다.</text>
+		</text>
+	</view>
+</theme>

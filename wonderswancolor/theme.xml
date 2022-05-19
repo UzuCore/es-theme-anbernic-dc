@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Wonderswan Color</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Wonderswan</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Color</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1999  ·  16-bit Handheld Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>원더스완을 업그레이드한 제품이다. 2000년 12월 30일 일본에서 출시되어 닌텐도와 다양한 게임보이들이 장악하고 있는 일본 시장의 8%를 차지하며 꽤 큰 성공을 거두었다.</text>
+		</text>
+	</view>
+</theme>

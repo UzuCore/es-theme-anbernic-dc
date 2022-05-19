@@ -1,0 +1,23 @@
+	<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Adventure Genre</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Adventure</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>Game Genre</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>모험 게임에서 플레이어는 탐색과 퍼즐 해결에 의해 움직이는 대화형 스토리를 따라갑니다.</text>
+		</text>
+	</view>
+</theme>

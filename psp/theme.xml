@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Sony Playstation Portable</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Sony</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>PSP</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>2004  ·  32-bit Handheld Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>PSP는 소니 컴퓨터 엔터테인먼트가 개발한 휴대용 게임기이다. 개발은 E3 2003에서 발표되었으며 2004년 5월 11일 E3 2004에 앞서 소니 기자 회견에서 공개되었다.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Shoot 'em Up Genre</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Shoot 'em Up</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>Game Genre</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>발사할 때 플레이어는 종종 우주선이나 항공기에서 장애물을 피하면서 많은 적을 격추합니다.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Kids Genre</text>
+		</text>s
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Kids</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>Game Genre</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>어린이 친화적인 게임에는 최소한의 만화 또는 판타지 폭력과 드물게 부드러운 언어가 포함될 수 있습니다.</text>
+		</text>
+	</view>
+</theme>

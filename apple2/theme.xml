@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Apple ][</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Apple ][</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>1977  ·  8-bit Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>8비트 가정용 컴퓨터이며, 최초의 매우 성공적인 대량 생산 마이크로 컴퓨터 제품 중 하나이다. 1977년 잡스에 의해 소개되었으며 애플 컴퓨터가 판매한 최초의 소비자 제품이었다.</text>
+		</text>
+	</view>
+</theme>

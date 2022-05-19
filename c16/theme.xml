@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>COMMODORE 16</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>C16</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>1984  ·  16-bit Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>코모도어 16(Commodore 16)은 코모도어 인터내셔널이 6502 호환 7501 또는 8501 CPU를 탑재한 가정용 컴퓨터이다. 그것은 특정 유럽 국가들에서 약간의 성공을 누렸다.</text>
+		</text>
+	</view>
+</theme>

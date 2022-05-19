@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Arcade</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Vertical</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Arcade</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>1970's  ·  Arcade Machines</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>아케이드는 오락업소에 설치된 전자 게임 기기이다. 인클로저, CRT 또는 모니터, 전원 공급 장치, 게임 컨트롤러, 게임 시스템으로 구성된다.</text>
+		</text>
+	</view>
+</theme>

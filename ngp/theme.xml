@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Neo Geo Pocket</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Neo Geo</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Pocket</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1998  ·  16-bit Handheld Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>네오지오 포켓(Neo Geo Pocket)은 SNK가 발매한 모노크롬 휴대용 게임기이다. 이 회사의 첫 핸드헬드 시스템이며 네오지오 제품군의 일부이다. 1998년 말에 일본에서 발매했다.</text>
+		</text>
+	</view>
+</theme>

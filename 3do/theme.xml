@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>3DO</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>3DO</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>1993  ·  32-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>3DO 인터랙티브 멀티플레이어(3DO Interactive Multiplayer)는 3DO 컴퍼니가 개발한 가정용 비디오 게임 콘솔 플랫폼이다. 기업가이자 일렉트로닉 아츠의 설립자인 트립 호킨스가 구상했다.</text>
+		</text>
+	</view>
+</theme>

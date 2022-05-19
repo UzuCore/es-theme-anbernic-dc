@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>NEC PC-98</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>NEC PC98</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>1982  ·  32-bit Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>PC-98(PC98)은 일본의 개인용 컴퓨터 모델인 NEC PC-9801 컴퓨터 시리즈의 약자이다. 1982년에 제조되었으며, PC-98 16비트 및 32비트 개인용 컴퓨터 시리즈 중 첫 번째이다.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+	<include>./config.xml</include>
+
+	<view name="splash">
+		<image name="splashLogo" extra="true">
+      		<path>./_art/indicators/logo.svg</path>
+			<path ifSubset="앤버닉 로고:lg2">./_art/indicators/es.png</path>
+      		<origin>0 0</origin>
+      		<pos>0.35 0.3</pos>
+			<size>0.3 0</size>
+   		</image>
+   		<image name="background">
+      		<path>./_art/assets/bg_color.png</path>
+			<color>000000</color>
+      		<origin>0 0</origin>
+      		<size>1 1</size>
+      		<pos>0 0</pos>
+   		</image>
+   		<image name="progressbar">
+      		<color>000000</color>
+      		<colorEnd>000000</colorEnd>
+      		<roundCorners>0</roundCorners>
+			<origin>0 0</origin>
+			<pos>0.25 0.6</pos>
+			<size>0.5 0.005</size>
+   		</image>
+   		<image name="progressbar:active">
+      		<color>aa0000</color>
+      		<colorEnd>aa0000</colorEnd>
+   		</image>
+   		<text name="label">
+      		<origin>1 1</origin>
+			<color>000000</color>
+			<pos>0 0</pos>
+   		</text>
+	</view>
+</theme>

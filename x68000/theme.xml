@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>X68000</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>X68000</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text> 
+		<text name="shortdescription" extra="true">
+			<text>1987  ·  24-bit Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>샤프 X68000은 1987년부터 일본에서 판매된 샤프사의 개인용 컴퓨터이다. 첫 번째 모델은 10MHz의 Motorola 68000 마이크로프로세서를 사용했다.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Amiga</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Amiga</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>1985  ·  16-bit Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>아미가 600이라고도 불리는 A600은 A500 계열의 최신 컴퓨터였다. A600은 7.09MHz(PAL) 또는 7.16MHz(NTSC)의 Motorola 68000 프로세서를 사용했다.</text>
+		</text>
+	</view>
+</theme>

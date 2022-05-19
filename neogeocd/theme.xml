@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Neo Geo</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Neo Geo</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text> 
+		<text name="shortdescription" extra="true">
+			<text>1990  ·  24-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>네오지오 CD는 비록 블록버스터가 아니었지만, 아케이드 버전을 거의 완벽하게 변환하여 당시로서는 부러울 만한 게임 라이브러리를 가지고 있었다.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Atari Jaguar</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Atari</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Jaguar</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1993  ·  64-bit Console</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>아타리 재규어(Atari Jaguar)는 아타리가 1993년에 출시한 비디오 게임 콘솔이다. 메가 드라이브와 슈퍼 닌텐도를 능가하는 처리 능력을 갖추기 위해 개발되었다.</text>
+		</text>
+	</view>
+</theme>

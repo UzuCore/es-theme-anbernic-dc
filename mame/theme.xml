@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>M.A.M.E.</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Multiple Arcade Machine Emulator</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>M.A.M.E.</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>Coin Operated Cabinet</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>멀티 아케이드 머신 에뮬레이터(Multiple Arcade Machine Emulator)는 현대의 개인용 컴퓨터와 다른 플랫폼에서 아케이드 게임 시스템의 하드웨어를 소프트웨어로 재생성하기 위해 설계된 자유 및 오픈 소스 에뮬레이터이다.</text>
+		</text>
+	</view>
+</theme>

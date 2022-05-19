@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Sega Naomi</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>Sega</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>Naomi</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>1998  ·  Arcade Board</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>나오미 (NOMI)는 세가 모델 3의 후속작이다. 세가는 1998년 어뮤즈먼트 머신 쇼에서 나오미를 처음으로 공개하였다.</text>
+		</text>
+	</view>
+</theme>

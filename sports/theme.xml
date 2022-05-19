@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Sports Genre</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Sports</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>Game Genre</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>팀 스포츠, 육상, 익스트림 스포츠, 격투 스포츠 등 대부분의 스포츠가 게임으로 재탄생되었습니다.</text>
+		</text>
+	</view>
+</theme>

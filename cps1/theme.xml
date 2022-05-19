@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>CAPCOM SYSTEM I</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line1" extra="true">
+			<text>CAPCOM</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
+			<text>SYSTEM I</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1988  ·  Arcade Board</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>CP 시스템(CP System, 줄여서 CPS1)은 캡콤이 개발한 아케이드 기판으로, 이동식 ROM 카트리지에 저장된 게임 소프트웨어를 구동한다. 캡콤이 게임 개발을 전환하기 전까지 24개 이상의 아케이드 타이틀이 CPS-1용으로 출시되었다.</text>
+		</text>
+	</view>
+</theme>

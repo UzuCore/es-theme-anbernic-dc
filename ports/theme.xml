@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Ports</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Ports</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>Software</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>몇몇 개발자들은 레거시 타이틀의 소스 코드를 공개하여 리눅스를 포함한 많은 대체 플랫폼에서 네이티브 애플리케이션으로 실행할 수 있게 하였다.</text>
+		</text>
+	</view>
+</theme>

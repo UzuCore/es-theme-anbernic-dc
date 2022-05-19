@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Custom Collection</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Custom</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>  
+		<text name="shortdescription" extra="true">
+			<text>All Consoles / Handhelds</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>프랜차이즈, 스타일, 회사 및 특정 시스템의 모든 사용자 지정 게임 컬렉션이 여기에 구성되어 있습니다. 좋아하는 게임을 선택하여 시스템을 통해 나만의 컬렉션을 만들 수 있습니다.</text>
+		</text>
+	</view>
+</theme>

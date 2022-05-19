@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>MSX 2</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>MSX 2</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text> 
+		<text name="shortdescription" extra="true">
+			<text>1984  ·  16-bit Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>MSX는 MSX, MSX2, MSX2+, MSX 터보R의 4세대를 낳았다. 처음 3개는 Z80 마이크로프로세서에 기반을 둔 8비트 컴퓨터였고, MSX 터보R은 사용자 지정 16비트 R800 마이크로프로세서에 기반을 두었다.</text>
+		</text>
+	</view>
+</theme>

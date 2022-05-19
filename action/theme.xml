@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Action Genre</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Action</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>Game Genre</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>액션 게임은 손과 눈의 조정과 반응 시간을 포함한 감각적인 컨트롤이 중요합니다.</text>
+		</text>
+	</view>
+</theme>

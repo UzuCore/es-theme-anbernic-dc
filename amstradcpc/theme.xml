@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Amstrad CPC</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>Amstrad</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.130</pos>
+			<size>0 0</size>
+		</text>    
+		<text name="shortdescription" extra="true">
+			<text>1984  ·  8-bit Computer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>암스트래드 CPC는 1980년대에 암스트래드가 제작한 8비트 개인용 컴퓨터이다. CPC는 단색 모니터를 탑재한 버전이 나왔지만 컬러 퍼스널 컴퓨터의 약자이다.</text>
+		</text>
+	</view>
+</theme>
