@@ -3,12 +3,12 @@
 	<include>./../theme.xml</include>
 	<view name="basic, detailed, video">
 		<text name="nameLabel" extra="true">
-			<text>Neo Geo</text>
+			<text>>Neo Geo CD</text>
 		</text>
 	</view>    
 	<view name="system">
 		<text name="sys_line2" extra="true">
-			<text>Neo Geo</text>
+			<text>Neo Geo CD</text>
 			<origin>0 0</origin>
 			<pos>0.02 0.130</pos>
 			<size>0 0</size>
