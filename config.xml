@@ -27,7 +27,7 @@
 	<subset name="폰트 설정" displayName="폰트 설정">
 		<include name="font1" displayName="에스코어드림" />
 		<include name="font2" displayName="NotoSans" />
-		<include name="font3" displayName="OpenSans" />
+		<include name="font3" displayName="나눔스퀘어" />
 		<include name="font4" displayName="엘리스" />
 		<include name="font5" displayName="다이어리" />
 		<include name="font6" displayName="빙그레" />
