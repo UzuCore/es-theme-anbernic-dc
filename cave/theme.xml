@@ -1,0 +1,23 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>CAVE</text>
+		</text>
+	</view>    
+	<view name="system">
+		<text name="sys_line2" extra="true">
+			<text>CAVE</text>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
+		<text name="shortdescription" extra="true">
+			<text>1994  ·  Developer</text>
+		</text>
+		<text name="longdescription" extra="true">
+			<text>주식회사 케이브는 1994년에 폐업한 토아플랜에서 근무했던 직원들이 모여세운 일본의 비디오 게임 개발사이며 슈팅 게임, 특히 탄막 슈팅 게임을 전문적으로 제작하는 회사이다.</text>
+		</text>
+	</view>
+</theme>
