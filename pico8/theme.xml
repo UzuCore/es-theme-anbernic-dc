@@ -16,7 +16,7 @@
 		<text name="sys_line2" extra="true">
 			<text>PICO-8</text>
 			<origin>0 0</origin>
-			<pos>0.02 0.130</pos>
+			<pos>0.02 0.16</pos>
 			<size>0 0</size>
 		</text>
 		<text name="shortdescription" extra="true">
