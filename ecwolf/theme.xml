@@ -8,22 +8,22 @@
 	</view>    
 	<view name="system">
 		<text name="sys_line1" extra="true">
-			<text>Lexaloffle Games</text>
+			<text>id Software</text>
 			<origin>0 0</origin>
 			<pos>0.02 0.142</pos>
 			<size>0 0</size>
 		</text>
 		<text name="sys_line2" extra="true">
-			<text>PICO-8</text>
+			<text>Wolfenstein 3D</text>
 			<origin>0 0</origin>
 			<pos>0.02 0.16</pos>
 			<size>0 0</size>
 		</text>
 		<text name="shortdescription" extra="true">
-			<text>Fantasy Console</text>
+			<text>1992  ·  Software</text>
 		</text>
 		<text name="longdescription" extra="true">
-			<text>이것은 렉살로플 게임즈가 만든 가상 머신과 게임 엔진이다. 1980년대 비디오 게임 콘솔의 하드코어 제한을 모방한 판타지 비디오 게임 콘솔을 모방하도록 설계되었다.</text>
+			<text>울펜슈타인 3D는 이드 소프트웨어에서 개발한 1인칭 슈팅 게임으로 1992년 5월 5일에 출시되었다. 캐슬 울펜슈타인과 비욘드 캐슬 울펜슈타인의 원조가 된 게임으로 최초의 1인칭 슈팅 게임이라고도 한다.</text>
 		</text>
 	</view>
 </theme>
