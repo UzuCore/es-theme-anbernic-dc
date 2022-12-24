@@ -23,7 +23,7 @@
 			<text>1995  ·  Software</text>
 		</text>
 		<text name="longdescription" extra="true">
-			<text>빌드는 3D Realms를 위해 켄 실버맨이 개발한 1인칭 슈팅 게임 엔진이다. 둠 엔진처럼 빌드 엔진은 섹터라 부르는 2차원 그리드에 세계를 표현하며, 스프라이트라는 이름의 단순하고 평평한 오브젝트를 사용하여 월드 지오메트리를 오브젝트로 추가시킨다.</text>
+			<text>빌드는 3D Realms를 위해 켄 실버맨이 개발한 1인칭 슈팅 게임 엔진이다. 둠 엔진처럼 빌드 엔진은 섹터라 부르는 2차원 그리드에 세계를 표현한다.</text>
 		</text>
 	</view>
 </theme>
