@@ -60,12 +60,12 @@
 	</view>
 
 	<view name="system">
-		<sound name="bgsound">
+		<!--<sound name="bgsound">-->
 			<!-- try ogg -->
 			<!--<path>./_art/assets/sounds/${system.theme}.ogg</path>-->
 			<!-- try mp3 -->
-			<path>./_art/no.mp3</path>
-		</sound>
+			<!--<path>./_art/assets/sounds/${system.theme}.mp3</path>-->
+		<!--</sound>-->
 		  
 		<image name="poster" extra="true">
 			<path>./_art/posters/${system.theme}.jpg</path>
