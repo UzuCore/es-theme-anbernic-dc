@@ -6,7 +6,7 @@
 	<view name="splash">
 		<image name="splashLogo" extra="true">
       		<path>./_art/indicators/logo.svg</path>
-			<path ifSubset="앤버닉 로고:lg2">./_art/indicators/es.png</path>
+			<path ifSubset="xLogo:lg2">./_art/indicators/es.png</path>
       		<origin>0 0</origin>
       		<pos>0.35 0.3</pos>
 			<size>0.3 0</size>

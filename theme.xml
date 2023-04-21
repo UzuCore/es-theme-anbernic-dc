@@ -4,39 +4,39 @@
 	<include>./config.xml</include>
 
 	<variables>
-		<fontWs ifSubset="폰트 설정:font9">JeonHwaseon.otf</fontWs>
-		<fontWm ifSubset="폰트 설정:font9">JeonHwaseon.otf</fontWm>
-		<fontWb ifSubset="폰트 설정:font9">JeonHwaseon.otf</fontWb>
-		<fontWs ifSubset="폰트 설정:font8">SimKyungha.otf</fontWs>
-		<fontWm ifSubset="폰트 설정:font8">SimKyungha.otf</fontWm>
-		<fontWb ifSubset="폰트 설정:font8">SimKyungha.otf</fontWb>
-		<fontWs ifSubset="폰트 설정:font7">LeeSeoyun.otf</fontWs>
-		<fontWm ifSubset="폰트 설정:font7">LeeSeoyun.otf</fontWm>
-		<fontWb ifSubset="폰트 설정:font7">LeeSeoyun.otf</fontWb>
-		<fontWs ifSubset="폰트 설정:font6">BinggraeSamanco.otf</fontWs>
-		<fontWm ifSubset="폰트 설정:font6">BinggraeSamanco-Bold.otf</fontWm>
-		<fontWb ifSubset="폰트 설정:font6">BinggraeSamanco-Bold.otf</fontWb>
-		<fontWs ifSubset="폰트 설정:font5">EF_Diary.ttf</fontWs>
-		<fontWm ifSubset="폰트 설정:font5">EF_Diary.ttf</fontWm>
-		<fontWb ifSubset="폰트 설정:font5">EF_Diary.ttf</fontWb>
-		<fontWs ifSubset="폰트 설정:font4">EliceDigitalCodingOTF_Regular.otf</fontWs>
-		<fontWm ifSubset="폰트 설정:font4">EliceDigitalCodingOTF_Bold.otf</fontWm>
-		<fontWb ifSubset="폰트 설정:font4">EliceDigitalCodingOTF_Bold.otf</fontWb>
-		<fontWs ifSubset="폰트 설정:font3">opensans_hebrew_condensed_light.ttf</fontWs>
-		<fontWm ifSubset="폰트 설정:font3">opensans_hebrew_condensed_regular.ttf</fontWm>
-		<fontWb ifSubset="폰트 설정:font3">opensans_hebrew_condensed_regular.ttf</fontWb>
-		<fontWs ifSubset="폰트 설정:font2">NotoSansKR-Regular.otf</fontWs>
-		<fontWm ifSubset="폰트 설정:font2">NotoSansKR-Medium.otf</fontWm>
-		<fontWb ifSubset="폰트 설정:font2">NotoSansKR-Bold.otf</fontWb>
-		<fontWs ifSubset="폰트 설정:font1">SCDream3.otf</fontWs>
-		<fontWm ifSubset="폰트 설정:font1">SCDream5.otf</fontWm>
-		<fontWb ifSubset="폰트 설정:font1">SCDream8.otf</fontWb>
+		<fontWs ifSubset="xFont:font9">JeonHwaseon.otf</fontWs>
+		<fontWm ifSubset="xFont:font9">JeonHwaseon.otf</fontWm>
+		<fontWb ifSubset="xFont:font9">JeonHwaseon.otf</fontWb>
+		<fontWs ifSubset="xFont:font8">SimKyungha.otf</fontWs>
+		<fontWm ifSubset="xFont:font8">SimKyungha.otf</fontWm>
+		<fontWb ifSubset="xFont:font8">SimKyungha.otf</fontWb>
+		<fontWs ifSubset="xFont:font7">LeeSeoyun.otf</fontWs>
+		<fontWm ifSubset="xFont:font7">LeeSeoyun.otf</fontWm>
+		<fontWb ifSubset="xFont:font7">LeeSeoyun.otf</fontWb>
+		<fontWs ifSubset="xFont:font6">BinggraeSamanco.otf</fontWs>
+		<fontWm ifSubset="xFont:font6">BinggraeSamanco-Bold.otf</fontWm>
+		<fontWb ifSubset="xFont:font6">BinggraeSamanco-Bold.otf</fontWb>
+		<fontWs ifSubset="xFont:font5">EF_Diary.ttf</fontWs>
+		<fontWm ifSubset="xFont:font5">EF_Diary.ttf</fontWm>
+		<fontWb ifSubset="xFont:font5">EF_Diary.ttf</fontWb>
+		<fontWs ifSubset="xFont:font4">EliceDigitalCodingOTF_Regular.otf</fontWs>
+		<fontWm ifSubset="xFont:font4">EliceDigitalCodingOTF_Bold.otf</fontWm>
+		<fontWb ifSubset="xFont:font4">EliceDigitalCodingOTF_Bold.otf</fontWb>
+		<fontWs ifSubset="xFont:font3">opensans_hebrew_condensed_light.ttf</fontWs>
+		<fontWm ifSubset="xFont:font3">opensans_hebrew_condensed_regular.ttf</fontWm>
+		<fontWb ifSubset="xFont:font3">opensans_hebrew_condensed_regular.ttf</fontWb>
+		<fontWs ifSubset="xFont:font2">NotoSansKR-Regular.otf</fontWs>
+		<fontWm ifSubset="xFont:font2">NotoSansKR-Medium.otf</fontWm>
+		<fontWb ifSubset="xFont:font2">NotoSansKR-Bold.otf</fontWb>
+		<fontWs ifSubset="xFont:font1">SCDream3.otf</fontWs>
+		<fontWm ifSubset="xFont:font1">SCDream5.otf</fontWm>
+		<fontWb ifSubset="xFont:font1">SCDream8.otf</fontWb>
 	</variables>
 
-	<include ifSubset="폰트 증폭:fSize1">./font.xml</include>
-	<include ifSubset="폰트 증폭:fSize10">./font10.xml</include>
-	<include ifSubset="폰트 증폭:fSize20">./font20.xml</include>
-	<include ifSubset="폰트 증폭:fSize30">./font30.xml</include>
+	<include ifSubset="xFontScale:fSize1">./font.xml</include>
+	<include ifSubset="xFontScale:fSize10">./font10.xml</include>
+	<include ifSubset="xFontScale:fSize20">./font20.xml</include>
+	<include ifSubset="xFontScale:fSize30">./font30.xml</include>
 
 	<view name="screen">
 		<controllerActivity name="controllerActivity">
@@ -75,7 +75,7 @@
 			<size>0 1</size>
 		</image>
 
-		<image ifSubset="앤버닉 로고:lg1" name="indicator_bg" extra="true">
+		<image ifSubset="xLogo:lg1" name="indicator_bg" extra="true">
 			<tile>false</tile>
 			<path>./_art/indicators/logo.svg</path>
 			<pos>0.35 0.05</pos>
@@ -85,7 +85,7 @@
 
 		<carousel name="systemcarousel">
 			<type>vertical</type>
-			<type ifSubset="화면 스크롤:가로">horizontal</type>
+			<type ifSubset="xScroll:가로">horizontal</type>
 			<color>00000000</color>
 			<origin>1 1</origin>
 			<pos>1 1</pos>
@@ -140,7 +140,7 @@
 			<color>ee0000</color>
 			<origin>0 0</origin>
 			<pos>0.02 0.41</pos>
-			<pos ifSubset="해상도 설정:480p|1080p">0.02 0.36</pos>
+			<pos ifSubset="xResolution:480p|1080p">0.02 0.36</pos>
 			<size>1 0.039</size>
 			<fontSize>${font_systemInfo}</fontSize>
 		</text>
@@ -154,12 +154,12 @@
 			<lineSpacing>1.18</lineSpacing>
 			<origin>0 0</origin>
 			<pos>0.02 0.465</pos>
-			<pos ifSubset="해상도 설정:320p">0.02 0.54</pos>
-			<pos ifSubset="해상도 설정:480p">0.02 0.43</pos>
-			<pos ifSubset="해상도 설정:1080p">0.02 0.4</pos>
+			<pos ifSubset="xResolution:320p">0.02 0.54</pos>
+			<pos ifSubset="xResolution:480p">0.02 0.43</pos>
+			<pos ifSubset="xResolution:1080p">0.02 0.4</pos>
 			<size>0.48 0.18</size>
-			<size ifSubset="해상도 설정:480p">0.44 0.18</size>
-			<size ifSubset="해상도 설정:1080p">0.38 0.18</size>
+			<size ifSubset="xResolution:480p">0.44 0.18</size>
+			<size ifSubset="xResolution:1080p">0.38 0.18</size>
 		</text>
 		<!--<image name="desc_helper" extra="true">
 			<path>./_art/assets/bg_color.png</path>
@@ -175,8 +175,8 @@
 			<tile>false</tile>
 			<origin>0 0</origin>
 			<pos>0.02 0.66</pos>
-			<pos ifSubset="해상도 설정:320p">0.02 0.84</pos>
-			<pos ifSubset="해상도 설정:1080p">0.02 0.6</pos>
+			<pos ifSubset="xResolution:320p">0.02 0.84</pos>
+			<pos ifSubset="xResolution:1080p">0.02 0.6</pos>
 			<size>0 0.044</size>
 		</image>
 
@@ -192,11 +192,11 @@
 			<tile>false</tile>
 			<origin>0 0</origin>
 			<pos>0.02 0.73</pos>
-			<pos ifSubset="해상도 설정:1080p">0.02 0.66</pos>
+			<pos ifSubset="xResolution:1080p">0.02 0.66</pos>
 			<maxSize>0.19 0.19</maxSize>
-			<maxSize ifSubset="해상도 설정:1080p">0.26 0.26</maxSize>
+			<maxSize ifSubset="xResolution:1080p">0.26 0.26</maxSize>
 		</image>
-		<image name="controller" extra="true" ifSubset="해상도 설정:320p">
+		<image name="controller" extra="true" ifSubset="xResolution:320p">
 			<origin>1 1</origin>
 			<pos>0 0</pos>
 			<textColor>000000</textColor>
@@ -216,12 +216,12 @@
 		<image name="background" extra="true">
 			<tile>false</tile>
 			<path>./_art/assets/bg.jpg</path>
-			<path ifSubset="배경 설정:bg6">./_art/assets/bg6.jpg</path>
-			<path ifSubset="배경 설정:bg5">./_art/assets/bg5.jpg</path>
-			<path ifSubset="배경 설정:bg4">./_art/assets/bg4.jpg</path>
-			<path ifSubset="배경 설정:bg3">./_art/assets/bg3.jpg</path>
-			<path ifSubset="배경 설정:bg2">./_art/assets/bg2.jpg</path>
-			<path ifSubset="배경 설정:bg0">./_art/assets/bg0.jpg</path>
+			<path ifSubset="xBG:bg6">./_art/assets/bg6.jpg</path>
+			<path ifSubset="xBG:bg5">./_art/assets/bg5.jpg</path>
+			<path ifSubset="xBG:bg4">./_art/assets/bg4.jpg</path>
+			<path ifSubset="xBG:bg3">./_art/assets/bg3.jpg</path>
+			<path ifSubset="xBG:bg2">./_art/assets/bg2.jpg</path>
+			<path ifSubset="xBG:bg0">./_art/assets/bg0.jpg</path>
 			<size>1 1</size>
 			<pos>0 0</pos>
 			<zIndex>0</zIndex>
@@ -230,8 +230,8 @@
 			<selectorColor>ff000088</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<selectorHeight>0.096</selectorHeight>
-			<selectorHeight ifSubset="해상도 설정:480p|544p">0.08</selectorHeight>
-			<selectorHeight ifSubset="해상도 설정:1080p">0.07</selectorHeight>
+			<selectorHeight ifSubset="xResolution:480p|544p">0.08</selectorHeight>
+			<selectorHeight ifSubset="xResolution:1080p">0.07</selectorHeight>
 			<primaryColor>a0a0a0</primaryColor>
 			<secondaryColor>888888</secondaryColor>
 			<fontPath>./_art/${fontWm}</fontPath>
@@ -240,7 +240,7 @@
 			<size>1 0.8513</size>
 			<fontSize>${font_gamelist}</fontSize>
 			<lineSpacing>1.48</lineSpacing>
-			<lineSpacing ifSubset="해상도 설정:544p|1080p">1.4</lineSpacing>
+			<lineSpacing ifSubset="xResolution:544p|1080p">1.4</lineSpacing>
 			<horizontalMargin>0.02864</horizontalMargin>
 			<zIndex>4</zIndex>
 		</textlist>
@@ -305,7 +305,7 @@
 			
 		<text name="md_players">
 			<pos>0.74 0.68</pos>
-			<pos ifSubset="해상도 설정:480p">0.765 0.68</pos>
+			<pos ifSubset="xResolution:480p">0.765 0.68</pos>
 			<size>0.2 0.07</size>
 		</text>
 			
