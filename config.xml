@@ -3,10 +3,14 @@
 <formatVersion>7</formatVersion>
 
 	<subset name="xResolution" displayName="해상도 설정">
-		<include name="544p" displayName="544p" />
-		<include name="320p" displayName="320p" />
-		<include name="480p" displayName="480p" />
-		<include name="1080p" displayName="1080p" />
+		<include ifArch="rg351p,amberelec-rg351p" name="320p" displayName="320p" /> 
+		<include ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="480p" displayName="480p" />
+		<include ifArch="rg503,amberelec-rg503" name="544p" displayName="544p" />
+		<include ifArch="rg552,amberelec-rg552,handheld" name="1080p" displayName="1080p" />
+		<include ifNotArch="rg351p,rg353p,rg351mp,rg351v,rg503,rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v,amberelec-rg503,amberelec-rg552,handheld" name="320p" displayName="320p" />
+		<include ifNotArch="rg351p,rg353p,rg351mp,rg351v,rg503,rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v,amberelec-rg503,amberelec-rg552,handheld" name="480p" displayName="480p" />
+		<include ifNotArch="rg351p,rg353p,rg351mp,rg351v,rg503,rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v,amberelec-rg503,amberelec-rg552,handheld" name="544p" displayName="544p" />
+		<include ifNotArch="rg351p,rg353p,rg351mp,rg351v,rg503,rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v,amberelec-rg503,amberelec-rg552,handheld" name="1080p" displayName="1080p" />
 	</subset>
 
 	<subset name="xScroll" displayName="화면 스크롤">
