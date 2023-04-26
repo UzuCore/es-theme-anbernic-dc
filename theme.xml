@@ -62,13 +62,13 @@
 	<view name="system">
 		<!--<sound name="bgsound">-->
 			<!-- try ogg -->
-			<!--<path>./_art/assets/sounds/${system.theme}.ogg</path>-->
+			<!--<path>./_assets/assets/sounds/${system.theme}.ogg</path>-->
 			<!-- try mp3 -->
-			<!--<path>./_art/assets/sounds/${system.theme}.mp3</path>-->
+			<!--<path>./_assets/assets/sounds/${system.theme}.mp3</path>-->
 		<!--</sound>-->
 		  
 		<image name="poster" extra="true">
-			<path>./_art/posters/${system.theme}.jpg</path>
+			<path>./_assets/posters/${system.theme}.jpg</path>
 			<tile>false</tile>
 			<origin>1 0</origin>
 			<pos>1 0</pos>
@@ -77,7 +77,7 @@
 
 		<image ifSubset="xLogo:lg1" name="indicator_bg" extra="true">
 			<tile>false</tile>
-			<path>./_art/indicators/logo.svg</path>
+			<path>./_assets/indicators/logo.svg</path>
 			<pos>0.35 0.05</pos>
 			<origin>0 0</origin>
 			<maxSize>0.25 0.25</maxSize>
@@ -93,12 +93,12 @@
 			<logoScale>1</logoScale>
 			<logoSize>0.01 0.01</logoSize>
 			<maxLogoCount>0</maxLogoCount>
-			<scrollSound>./_art/scroll.wav</scrollSound>
+			<scrollSound>./_assets/scroll.wav</scrollSound>
 			<systemInfoDelay>120</systemInfoDelay>
 		</carousel>
 		
 		<text name="sys_line1" extra="true">
-			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<fontPath>./_assets/BebasNeue.otf</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>1</forceUppercase>
 			<color>FFFFFF</color>
@@ -106,7 +106,7 @@
 		</text>
 		
 		<text name="sys_line2" extra="true">
-			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<fontPath>./_assets/BebasNeue.otf</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>1</forceUppercase>
 			<color>FFFFFF</color>
@@ -114,7 +114,7 @@
 		</text>
 
 		<text name="sys_line3" extra="true">
-			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<fontPath>./_assets/BebasNeue.otf</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>1</forceUppercase>
 			<color>FFFFFF</color>
@@ -122,7 +122,7 @@
 		</text>
 
 		<text name="shortdescription" extra="true">
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>0</forceUppercase>
 			<fontSize>${font_shortdescription}</fontSize>
@@ -133,7 +133,7 @@
 		</text>
 
 		<text name="systemInfo">
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<alignment>left</alignment>
 			<backgroundColor>00000000</backgroundColor>
 			<forceUppercase>1</forceUppercase>
@@ -146,7 +146,7 @@
 		</text>
 
 		<text name="longdescription" extra="true">
-			<fontPath>./_art/${fontWs}</fontPath>
+			<fontPath>./_assets/${fontWs}</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>0</forceUppercase>
 			<fontSize>${font_longdescription}</fontSize>
@@ -162,7 +162,7 @@
 			<size ifSubset="xResolution:1080p">0.38 0.18</size>
 		</text>
 		<!--<image name="desc_helper" extra="true">
-			<path>./_art/assets/bg_color.png</path>
+			<path>./_assets/assets/bg_color.png</path>
 			<origin>0 0</origin>
 			<pos>0.02 0.42</pos>
 			<size>0.44 0.4</size>
@@ -171,7 +171,7 @@
 		</image>-->
 
 		<image name="buttonA" extra="true">
-			<path>./_art/assets/button.svg</path>
+			<path>./_assets/assets/button.svg</path>
 			<tile>false</tile>
 			<origin>0 0</origin>
 			<pos>0.02 0.66</pos>
@@ -181,21 +181,12 @@
 		</image>
 
 		<helpsystem name="help">
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<fontSize>${font_help}</fontSize>
 			<textColor>666666</textColor>
 			<iconColor>666666</iconColor>
 		</helpsystem> 
 
-		<image name="controller" extra="true">
-			<path>./_art/controllers/${system.theme}.png</path>
-			<tile>false</tile>
-			<origin>0 0</origin>
-			<pos>0.02 0.73</pos>
-			<pos ifSubset="xResolution:1080p">0.02 0.66</pos>
-			<maxSize>0.19 0.19</maxSize>
-			<maxSize ifSubset="xResolution:1080p">0.26 0.26</maxSize>
-		</image>
 		<image name="controller" extra="true" ifSubset="xResolution:320p">
 			<origin>1 1</origin>
 			<pos>0 0</pos>
@@ -206,7 +197,7 @@
 
 	<view name="basic, detailed, video">
 		<!--<image name="desc_helper" extra="true">
-			<path>./_art/assets/bg_color.png</path>
+			<path>./_assets/assets/bg_color.png</path>
 			<origin>0 0</origin>
 			<pos>0 0.0833</pos>
 			<size>1 0.8513</size>
@@ -215,13 +206,13 @@
 		</image>-->
 		<image name="background" extra="true">
 			<tile>false</tile>
-			<path>./_art/assets/bg.jpg</path>
-			<path ifSubset="xBG:bg6">./_art/assets/bg6.jpg</path>
-			<path ifSubset="xBG:bg5">./_art/assets/bg5.jpg</path>
-			<path ifSubset="xBG:bg4">./_art/assets/bg4.jpg</path>
-			<path ifSubset="xBG:bg3">./_art/assets/bg3.jpg</path>
-			<path ifSubset="xBG:bg2">./_art/assets/bg2.jpg</path>
-			<path ifSubset="xBG:bg0">./_art/assets/bg0.jpg</path>
+			<path>./_assets/assets/bg.jpg</path>
+			<path ifSubset="xBG:bg6">./_assets/assets/bg6.jpg</path>
+			<path ifSubset="xBG:bg5">./_assets/assets/bg5.jpg</path>
+			<path ifSubset="xBG:bg4">./_assets/assets/bg4.jpg</path>
+			<path ifSubset="xBG:bg3">./_assets/assets/bg3.jpg</path>
+			<path ifSubset="xBG:bg2">./_assets/assets/bg2.jpg</path>
+			<path ifSubset="xBG:bg0">./_assets/assets/bg0.jpg</path>
 			<size>1 1</size>
 			<pos>0 0</pos>
 			<zIndex>0</zIndex>
@@ -234,7 +225,7 @@
 			<selectorHeight ifSubset="xResolution:1080p">0.07</selectorHeight>
 			<primaryColor>a0a0a0</primaryColor>
 			<secondaryColor>888888</secondaryColor>
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<alignment>left</alignment>
 			<pos>0 0.0833</pos>
 			<size>1 0.8513</size>
@@ -246,7 +237,7 @@
 		</textlist>
 		
 		<text name="nameLabel" extra="true">
-			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<fontPath>./_assets/BebasNeue.otf</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>1</forceUppercase>
 			<color>ffffff</color>
@@ -257,7 +248,7 @@
 		</text>
 
 		<!--<text name="md_description">
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<color>818181</color>
 			<fontSize>0.025</fontSize>
 			<alignment>left</alignment>
@@ -272,14 +263,14 @@
 		<text name="md_lbl_rating, md_lbl_genre, md_lbl_players">
 			<color>F8F8F8</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<fontSize>${font_md_lbl}</fontSize>
 		</text>
 
 		<text name="md_genre, md_players">
 			<color>888888</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./_art/${fontWb}</fontPath>
+			<fontPath>./_assets/${fontWb}</fontPath>
 			<fontSize>${font_md_gp}</fontSize>
 		</text>
 
@@ -293,8 +284,8 @@
 			<linearSmooth>true</linearSmooth>
 			<pos>0.693 0.62</pos>
 			<size>0 0.05</size>
-			<filledPath>./_art/assets/star_filled.svg</filledPath>
-			<unfilledPath>./_art/assets/star_hollow.svg</unfilledPath>
+			<filledPath>./_assets/assets/star_filled.svg</filledPath>
+			<unfilledPath>./_assets/assets/star_hollow.svg</unfilledPath>
 			<color>ffc500</color>
 		</rating>
 
@@ -320,7 +311,7 @@
 		</text> 
 
 		<helpsystem name="help">
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<fontSize>${font_help}</fontSize>
 			<textColor>666666</textColor>
 			<iconColor>666666</iconColor>
@@ -328,7 +319,7 @@
 
 		<!-- Extra Text Labels. Edit text values if needed.-->
 		<!-- <text name="players_lbl_2, btn_a, btn_b, btn_x" extra="true">
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<color>888888</color>
 			<fontSize>0.0186</fontSize>
 		</text>	   
@@ -359,7 +350,7 @@
 
 		<text name="txt_descript" extra="true">
 			<text>게임소개</text>
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<alignment>left</alignment>
 			<fontSize>0.0186</fontSize>
 			<color>ffffff</color>
@@ -392,14 +383,14 @@
 				
 		<!--<image name="background" extra="true">
 			<tile>false</tile>
-			<path>./_art/assets/bg.png</path>
+			<path>./_assets/assets/bg.png</path>
 			<size>1 1</size>
 			<pos>0 0</pos>
 			<zIndex>1</zIndex>
 		</image>-->
 		
 		<!--<image name="crtBezel" extra="true">
-			<path>./_art/assets/bezel.png</path>
+			<path>./_assets/assets/bezel.png</path>
 			<origin>0 0</origin>
 			<pos>0.594 0.1</pos>
 			<size>0.39 0.5</size>
@@ -442,12 +433,12 @@
 	<view name="menu">
 		<size>0.9 0.9</size>
 		<menuText name="menutitle">
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<fontSize>${font_menutitle}</fontSize>
 			<color>ffffff</color>
 		</menuText>
 		<menuText name="menutext, menufooter, menugroup">
-			<fontPath>./_art/${fontWm}</fontPath>
+			<fontPath>./_assets/${fontWm}</fontPath>
 			<color>ffffff</color>
 		</menuText>
 		<menuText name="menufooter">
@@ -468,28 +459,28 @@
 			<cornerSize>25 25</cornerSize>
 		</menuBackground>
 		<menuTextEdit name="menutextedit">
-			<inactive>./_art/assets/textinput_inactive.png</inactive>
-			<active>./_art/assets/textinput_active.png</active>
+			<inactive>./_assets/assets/textinput_inactive.png</inactive>
+			<active>./_assets/assets/textinput_active.png</active>
 		</menuTextEdit>
 		<menuIcons name="menuicons">
-		  <iconKodi>./_art/icons/Kodi.png</iconKodi>
-		  <iconSystem>./_art/icons/System.png</iconSystem>
-		  <iconUpdates>./_art/icons/Updates.png</iconUpdates>
-		  <iconGames>./_art/icons/Games.png</iconGames>
-		  <iconControllers>./_art/icons/Controllers.png</iconControllers>
-		  <iconUI>./_art/icons/UI.png</iconUI>
-		  <iconSound>./_art/icons/Sound.png</iconSound>
-		  <iconNetwork>./_art/icons/Network.png</iconNetwork>
-		  <iconScraper>./_art/icons/Scraper.png</iconScraper>
-		  <iconAdvanced>./_art/icons/Advanced.png</iconAdvanced>
-		  <iconQuit>./_art/icons/Quit.png</iconQuit>
-		  <iconRestart>./_art/icons/Restart.png</iconRestart>
-		  <iconShutdown>./_art/icons/Shutdown.png</iconShutdown>
-		  <iconFastShutdown>./_art/icons/Fastshutdown.png</iconFastShutdown>
-		  <iconRetroachievements>./_art/icons/Contest.png</iconRetroachievements>
-		  <iconEmuelec>./_art/icons/Emuelec.png</iconEmuelec>
-		  <iconStreaming>./_art/icons/Streaming.png</iconStreaming>
-		  <iconManual>./_art/icons/Manual.png</iconManual>
+		  <iconKodi>./_assets/icons/Kodi.png</iconKodi>
+		  <iconSystem>./_assets/icons/System.png</iconSystem>
+		  <iconUpdates>./_assets/icons/Updates.png</iconUpdates>
+		  <iconGames>./_assets/icons/Games.png</iconGames>
+		  <iconControllers>./_assets/icons/Controllers.png</iconControllers>
+		  <iconUI>./_assets/icons/UI.png</iconUI>
+		  <iconSound>./_assets/icons/Sound.png</iconSound>
+		  <iconNetwork>./_assets/icons/Network.png</iconNetwork>
+		  <iconScraper>./_assets/icons/Scraper.png</iconScraper>
+		  <iconAdvanced>./_assets/icons/Advanced.png</iconAdvanced>
+		  <iconQuit>./_assets/icons/Quit.png</iconQuit>
+		  <iconRestart>./_assets/icons/Restart.png</iconRestart>
+		  <iconShutdown>./_assets/icons/Shutdown.png</iconShutdown>
+		  <iconFastShutdown>./_assets/icons/Fastshutdown.png</iconFastShutdown>
+		  <iconRetroachievements>./_assets/icons/Contest.png</iconRetroachievements>
+		  <iconEmuelec>./_assets/icons/Emuelec.png</iconEmuelec>
+		  <iconStreaming>./_assets/icons/Streaming.png</iconStreaming>
+		  <iconManual>./_assets/icons/Manual.png</iconManual>
 		</menuIcons>
 	</view>
 </theme>
