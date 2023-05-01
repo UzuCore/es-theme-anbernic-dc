@@ -23,7 +23,7 @@
 			<text>1996  ·  Software</text>
 		</text>
 		<text name="longdescription" extra="true">
-			<text>Quake는 id 소프트웨어가 개발하고 GT 인터랙티브가 배급한 1인칭 슈팅 게임이다. 게임에서 플레이어는 다양한 무기를 사용하여 다양한 몬스터와 싸우는 동안 미로와 같은 중세 환경을 통과해야 한다.</text>
+			<text>Quake는 id 소프트웨어가 개발하고 GT 인터랙티브가 배급한 1인칭 슈팅 게임이다. 플레이어는 다양한 무기를 사용하여 몬스터와 싸우는 동안 미로와 같은 중세 환경을 통과해야 한다.</text>
 		</text>
 	</view>
 </theme>

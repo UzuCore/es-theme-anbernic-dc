@@ -17,7 +17,7 @@
 			<text>32-bit Handheld Console</text>
 		</text>
 		<text name="longdescription" extra="true">
-			<text>OpenBOR(Open Beats of Rage)는 Beats of Rage 엔진의 오픈 소스 제품군이다. Beats of Rage는 독립형 게임으로 설계되었지만, 게임 요소 및 엔진의 모듈식 설계로 최종 사용자가 자산을 교체할 수 있게 되었다.</text>
+			<text>OpenBOR는 Beats of Rage 엔진의 오픈 소스 제품군이다. Beats of Rage는 독립형 게임으로 설계되었지만, 게임 요소 및 엔진의 모듈식 설계로 최종 사용자가 자산을 교체할 수 있게 되었다.</text>
 		</text>
 	</view>
 </theme>
