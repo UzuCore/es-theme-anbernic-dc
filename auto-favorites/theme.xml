@@ -8,7 +8,7 @@
 	</view>    
 	<view name="system">
 	<text name="sys_line3" extra="true">
-		<fontPath>./../_art/SCDream8.otf</fontPath>
+		<fontPath>./../_assets/SCDream8.otf</fontPath>
 			<text>즐겨찾기</text>
 			<origin>0 0</origin>
 			<pos>0.02 0.130</pos>
