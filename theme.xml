@@ -140,7 +140,7 @@
 			<color>ee0000</color>
 			<origin>0 0</origin>
 			<pos>0.02 0.41</pos>
-			<pos ifSubset="xResolution:480p|1080p">0.02 0.36</pos>
+			<pos ifSubset="aspect-ratio:4-3|16-9">0.02 0.36</pos>
 			<size>1 0.039</size>
 			<fontSize>${font_systemInfo}</fontSize>
 		</text>
@@ -154,12 +154,12 @@
 			<lineSpacing>1.18</lineSpacing>
 			<origin>0 0</origin>
 			<pos>0.02 0.465</pos>
-			<pos ifSubset="xResolution:320p">0.02 0.54</pos>
-			<pos ifSubset="xResolution:480p">0.02 0.43</pos>
-			<pos ifSubset="xResolution:1080p">0.02 0.4</pos>
+			<pos ifSubset="aspect-ratio:3-2">0.02 0.54</pos>
+			<pos ifSubset="aspect-ratio:4-3">0.02 0.43</pos>
+			<pos ifSubset="aspect-ratio:16-9">0.02 0.4</pos>
 			<size>0.48 0.18</size>
-			<size ifSubset="xResolution:480p">0.44 0.18</size>
-			<size ifSubset="xResolution:1080p">0.38 0.18</size>
+			<size ifSubset="aspect-ratio:4-3">0.44 0.18</size>
+			<size ifSubset="aspect-ratio:16-9">0.38 0.18</size>
 		</text>
 		<!--<image name="desc_helper" extra="true">
 			<path>./_assets/assets/bg_color.png</path>
@@ -175,8 +175,8 @@
 			<tile>false</tile>
 			<origin>0 0</origin>
 			<pos>0.02 0.66</pos>
-			<pos ifSubset="xResolution:320p">0.02 0.84</pos>
-			<pos ifSubset="xResolution:1080p">0.02 0.6</pos>
+			<pos ifSubset="aspect-ratio:3-2">0.02 0.84</pos>
+			<pos ifSubset="aspect-ratio:16-9">0.02 0.6</pos>
 			<size>0 0.044</size>
 		</image>
 
@@ -187,7 +187,7 @@
 			<iconColor>666666</iconColor>
 		</helpsystem> 
 
-		<image name="controller" extra="true" ifSubset="xResolution:320p">
+		<image name="controller" extra="true" ifSubset="aspect-ratio:3-2">
 			<origin>1 1</origin>
 			<pos>0 0</pos>
 			<textColor>000000</textColor>
@@ -221,8 +221,8 @@
 			<selectorColor>ff000088</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<selectorHeight>0.096</selectorHeight>
-			<selectorHeight ifSubset="xResolution:480p|544p">0.08</selectorHeight>
-			<selectorHeight ifSubset="xResolution:1080p">0.07</selectorHeight>
+			<selectorHeight ifSubset="aspect-ratio:4-3|5-3">0.08</selectorHeight>
+			<selectorHeight ifSubset="aspect-ratio:16-9">0.07</selectorHeight>
 			<primaryColor>a0a0a0</primaryColor>
 			<secondaryColor>888888</secondaryColor>
 			<fontPath>./_assets/${fontWm}</fontPath>
@@ -231,7 +231,7 @@
 			<size>1 0.8513</size>
 			<fontSize>${font_gamelist}</fontSize>
 			<lineSpacing>1.48</lineSpacing>
-			<lineSpacing ifSubset="xResolution:544p|1080p">1.4</lineSpacing>
+			<lineSpacing ifSubset="aspect-ratio:5-3|16-9">1.4</lineSpacing>
 			<horizontalMargin>0.02864</horizontalMargin>
 			<zIndex>4</zIndex>
 		</textlist>
@@ -296,7 +296,7 @@
 			
 		<text name="md_players">
 			<pos>0.74 0.68</pos>
-			<pos ifSubset="xResolution:480p">0.765 0.68</pos>
+			<pos ifSubset="aspect-ratio:4-3">0.765 0.68</pos>
 			<size>0.2 0.07</size>
 		</text>
 			
