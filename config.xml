@@ -2,14 +2,16 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-	<subset name="aspect-ratio" displayName="해상도 설정">
-      <include name="16-9" displayName="16:9" />
-      <include name="16-10" displayName="16:10" />
-      <include name="4-3" displayName="4:3" />
-      <include name="3-2" displayName="3:2" />
-      <include name="5-3" displayName="5:3" />
-      <include name="1-1" displayName="1:1" />
-   </subset>
+	<subset name="xResolution" displayName="해상도 설정">
+		<include ifArch="rg351p,amberelec-rg351p" name="320p" displayName="320p" /> 
+		<include ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="480p" displayName="480p" />
+		<include ifArch="rg503,amberelec-rg503" name="544p" displayName="544p" />
+		<include ifArch="rg552,amberelec-rg552,handheld" name="1080p" displayName="1080p" />
+		<include ifNotArch="rg351p,rg353p,rg351mp,rg351v,rg503,rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v,amberelec-rg503,amberelec-rg552,handheld" name="320p" displayName="320p" />
+		<include ifNotArch="rg351p,rg353p,rg351mp,rg351v,rg503,rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v,amberelec-rg503,amberelec-rg552,handheld" name="480p" displayName="480p" />
+		<include ifNotArch="rg351p,rg353p,rg351mp,rg351v,rg503,rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v,amberelec-rg503,amberelec-rg552,handheld" name="544p" displayName="544p" />
+		<include ifNotArch="rg351p,rg353p,rg351mp,rg351v,rg503,rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v,amberelec-rg503,amberelec-rg552,handheld" name="1080p" displayName="1080p" />
+	</subset>
 
 	<subset name="xScroll" displayName="화면 스크롤">
 		<include name="세로" displayName="세로" />
@@ -19,39 +21,6 @@
 	<subset name="xBG" displayName="배경 설정">
 		<include name="bg1" displayName="블랙독" />
 		<include name="bg2" displayName="도트" />
-		<include name="bg3" displayName="페인트" />
-		<include name="bg4" displayName="나선" />
-		<include name="bg5" displayName="곡선" />
-		<include name="bg6" displayName="라인" />
-		<include name="bg0" displayName="없음" />
-	</subset>
-
-	<subset name="xFont" displayName="폰트 설정">
-		<include name="font1" displayName="에스코어드림" />
-		<include name="font2" displayName="NotoSans" />
-		<include name="font3" displayName="나눔스퀘어" />
-		<include name="font4" displayName="엘리스" />
-		<include name="font5" displayName="다이어리" />
-		<include name="font6" displayName="빙그레" />
-		<include name="font7" displayName="이모씨" />
-		<include name="font8" displayName="심모씨" />
-		<include name="font9" displayName="전모씨" />
-	</subset>
-
-	<subset name="xFontScale" displayName="폰트 증폭">
-		<include name="fSize1" displayName="기본" />
-		<include name="fSize10" displayName="10%" />
-		<include name="fSize20" displayName="20%" />
-		<include name="fSize30" displayName="30%" />
-	</subset>
-
-	<subset name="xLogo" displayName="앤버닉 로고">
-		<include name="lg1" displayName="사용" />
-		<include name="lg2" displayName="사용안함" />
-	</subset>
-
-</theme>
-de name="bg2" displayName="도트" />
 		<include name="bg3" displayName="페인트" />
 		<include name="bg4" displayName="나선" />
 		<include name="bg5" displayName="곡선" />
